@@ -18,6 +18,8 @@ echo "fedcba9876543210" > strings/0x409/serialnumber
 echo "Valentin Brosseau" > strings/0x409/manufacturer
 echo "Keyboard-dev" > strings/0x409/product
 
+mkdir -p configs/c.1
+
 # Define a Keyboard
 mkdir -p functions/hid.usb0
 echo 1 > functions/hid.usb0/protocol
